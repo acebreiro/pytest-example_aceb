@@ -4,12 +4,12 @@ import pytest
 
 
 def test_add():
-    assert add(2, 3) == 6
+    assert add(2, 3) == 5
     assert add("space", "ship") == "spaceship"
 
 # THis will not fail
-# def test_subtract():
-#    assert subtract(3,2) == 1
+def test_subtract():
+   assert subtract(3,2) == 1
 
 
 # def test_convert_fahrenheit_to_celsius():
